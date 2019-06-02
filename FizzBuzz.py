@@ -12,7 +12,7 @@ class FizzBuzz:
         return self.checkIn(self.buzz)
 
     def checkIn(self, num):
-        if 0 < num < 10:
+        if 0 <= num < 10:
             return True
         return False
 
