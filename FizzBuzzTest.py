@@ -18,7 +18,7 @@ class FizzBuzzTest(unittest.TestCase):
         self.assertFalse(self.fizzBuzz.checkFizz())
         self.assertFalse(self.fizzBuzz.checkBuzz())
         self.fizzBuzz = FizzBuzz(0, -1)
-        self.assertTrue(self.fizzBuzz.checkFizz())
+        self.assertFalse(self.fizzBuzz.checkFizz())
         self.assertFalse(self.fizzBuzz.checkBuzz())
         self.fizzBuzz = FizzBuzz(3, 5)
         self.assertTrue(self.fizzBuzz.checkFizz())
