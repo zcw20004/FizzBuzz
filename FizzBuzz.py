@@ -32,5 +32,5 @@ class FizzBuzz:
 
     def teacherSay(self):
         for i in xrange(1, 101):
-            self.say(i)
+            print self.say(i)
 
