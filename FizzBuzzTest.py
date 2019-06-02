@@ -10,7 +10,6 @@ import unittest
 
 class FizzBuzzTest(unittest.TestCase):
 
-
     def test(self):
         self.fizzBuzz = FizzBuzz(5,5)
         self.assertTrue(self.fizzBuzz.checkFizz())
